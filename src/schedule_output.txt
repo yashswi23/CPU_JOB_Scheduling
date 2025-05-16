@@ -1,0 +1,309 @@
+
+Scheduled using Priority:
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=J2, Duration=50, Priority=2]
+
+
+Scheduled using SJF:
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=j5, Duration=10, Priority=5]
+Job[ID=j6, Duration=11, Priority=6]
+Job[ID=J2, Duration=50, Priority=2]
+
+
+Scheduled using FCFS:
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=J2, Duration=50, Priority=2]
+Job[ID=j5, Duration=10, Priority=5]
+Job[ID=j6, Duration=11, Priority=6]
+Job[ID=J11, Duration=10, Priority=1]
+
+
+Scheduled using SJF:
+Job[ID=j1, Duration=1, Priority=3]
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=j5, Duration=10, Priority=5]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=j6, Duration=11, Priority=6]
+Job[ID=J2, Duration=50, Priority=2]
+
+
+Scheduled using Priority:
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=J2, Duration=50, Priority=2]
+Job[ID=j1, Duration=1, Priority=3]
+Job[ID=j5, Duration=10, Priority=5]
+Job[ID=j6, Duration=11, Priority=6]
+
+
+Scheduled using FCFS:
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=J2, Duration=50, Priority=2]
+Job[ID=j5, Duration=10, Priority=5]
+Job[ID=j6, Duration=11, Priority=6]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=j1, Duration=1, Priority=3]
+
+
+Scheduled using FCFS:
+Job[ID=J1, Duration=5, Priority=1]
+Job[ID=J2, Duration=50, Priority=2]
+Job[ID=j5, Duration=10, Priority=5]
+Job[ID=j6, Duration=11, Priority=6]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=J11, Duration=10, Priority=1]
+Job[ID=j1, Duration=1, Priority=3]
+Job[ID=j2, Duration=15, Priority=1]
+Job[ID=j8, Duration=20, Priority=9]
+
+
+Scheduled using Round Robin:
+Job J1 ran for 2 units
+Job J2 ran for 2 units
+Job j5 ran for 2 units
+Job j6 ran for 2 units
+Job J11 ran for 2 units
+Job J11 ran for 2 units
+Job j1 ran for 1 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J1 ran for 2 units
+Job J2 ran for 2 units
+Job j5 ran for 2 units
+Job j6 ran for 2 units
+Job J11 ran for 2 units
+Job J11 ran for 2 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J1 ran for 1 units
+Job J2 ran for 2 units
+Job j5 ran for 2 units
+Job j6 ran for 2 units
+Job J11 ran for 2 units
+Job J11 ran for 2 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j5 ran for 2 units
+Job j6 ran for 2 units
+Job J11 ran for 2 units
+Job J11 ran for 2 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j5 ran for 2 units
+Job j6 ran for 2 units
+Job J11 ran for 2 units
+Job J11 ran for 2 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j6 ran for 1 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j2 ran for 1 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job j8 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+Job J2 ran for 2 units
+
+
+Scheduled using Round Robin:
+No jobs to schedule.
+
+
+Scheduled using SJF:
+Job[ID=t1, Duration=6, Priority=0]
+Job[ID=t2, Duration=12, Priority=1]
+
+
+Scheduled using FCFS:
+Job[ID=R1, Duration=1, Priority=1]
+Job[ID=R2, Duration=2, Priority=2]
+Job[ID=R3, Duration=3, Priority=0]
+Job[ID=R4, Duration=5, Priority=9]
+Job[ID=R5, Duration=9, Priority=5]
+
+
+Scheduled using SJF:
+Job[ID=R1, Duration=1, Priority=1]
+Job[ID=R2, Duration=2, Priority=2]
+Job[ID=R3, Duration=3, Priority=0]
+Job[ID=R4, Duration=5, Priority=9]
+Job[ID=R5, Duration=9, Priority=5]
+
+
+Scheduled using Priority:
+Job[ID=R3, Duration=3, Priority=0]
+Job[ID=R1, Duration=1, Priority=1]
+Job[ID=R2, Duration=2, Priority=2]
+Job[ID=R5, Duration=9, Priority=5]
+Job[ID=R4, Duration=5, Priority=9]
+
+
+Scheduled using Round Robin:
+Job R1 ran for 1 units
+Job R2 ran for 2 units
+Job R3 ran for 3 units
+Job R4 ran for 5 units
+Job R5 ran for 5 units
+Job R5 ran for 4 units
+
+
+Scheduled using Round Robin:
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+Job[ID=j2, Duration=2, Priority=0]
+
+
+Scheduled using Round Robin:
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+
+
+Scheduled using Round Robin:
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+Job j1 ran for 2 units
+
+
+Scheduled using SJF:
+Job[ID=j1, Duration=10, Priority=1]
+
+
+Scheduled using Priority:
+Job[ID=j1, Duration=10, Priority=1]
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+Job[ID=j2, Duration=20, Priority=0]
+Job[ID=j3, Duration=30, Priority=2]
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+Job[ID=j2, Duration=20, Priority=0]
+Job[ID=j3, Duration=30, Priority=2]
+
+
+Scheduled using SJF:
+Job[ID=j1, Duration=10, Priority=1]
+Job[ID=j2, Duration=20, Priority=0]
+Job[ID=j3, Duration=30, Priority=2]
+
+
+Scheduled using Round Robin:
+Job j1 ran for 3 units
+Job j2 ran for 3 units
+Job j3 ran for 3 units
+Job j1 ran for 3 units
+Job j2 ran for 3 units
+Job j3 ran for 3 units
+Job j1 ran for 3 units
+Job j2 ran for 3 units
+Job j3 ran for 3 units
+Job j1 ran for 1 units
+Job j2 ran for 3 units
+Job j3 ran for 3 units
+Job j2 ran for 3 units
+Job j3 ran for 3 units
+Job j2 ran for 3 units
+Job j3 ran for 3 units
+Job j2 ran for 2 units
+Job j3 ran for 3 units
+Job j3 ran for 3 units
+Job j3 ran for 3 units
+Job j3 ran for 3 units
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+Job[ID=j2, Duration=20, Priority=0]
+Job[ID=j3, Duration=30, Priority=2]
+
+
+Scheduled using FCFS:
+Job[ID=j1, Duration=10, Priority=1]
+Job[ID=j2, Duration=20, Priority=0]
+Job[ID=j3, Duration=30, Priority=2]
+
+
+Scheduled using Round Robin:
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j1 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j2 ran for 2 units
+Job j3 ran for 2 units
+Job j3 ran for 2 units
+Job j3 ran for 2 units
+Job j3 ran for 2 units
+Job j3 ran for 2 units
+Job j3 ran for 2 units
+
